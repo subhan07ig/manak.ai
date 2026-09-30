@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary-navy: #123b63;
+    --deep-blue: #0b2447;
+    --saffron: #f59e0b;
+    --success-green: #16a34a;
+    --warning-amber: #d97706;
+    --error-red: #dc2626;
+    --bg-page: #f5f7fa;
+    --card-bg: #ffffff;
+    --text-primary: #172033;
+    --text-muted: #64748b;
+    --border-color: #d9e1ea;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+
+  .font-devanagari {
+    font-family: 'Noto Sans Devanagari', 'Plus Jakarta Sans', sans-serif;
+  }
+
+  .font-mono-numbers {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom scrollbars for data tables and panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "MANAK.AI - Indian Standards Intelligence Platform",
+  "description": "AI-powered Indian Standards Recommendation and Procurement Specification Validation Platform for government departments, PSUs, and procurement officers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
